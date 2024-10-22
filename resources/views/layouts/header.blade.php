@@ -11,7 +11,6 @@
               />
             </svg>
           </a>
-          <h2>Todo List</h2>
         </div>
 
         {{-- <div class="md:flex md:items-center md:gap-12">

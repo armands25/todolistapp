@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- This is for getting showing the data --}}
-    <a href="{{ route('tasks.index') }}">sdaasd</a>
+    <a href="{{ route('tasks.index') }}">Hi guys welcome to my guys.</a>
 @endsection
 
 

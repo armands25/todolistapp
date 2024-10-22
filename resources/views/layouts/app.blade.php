@@ -23,10 +23,13 @@
             @include('layouts.header')
         </header>
 
-        {{-- @yield is typically change over and over the time. --}}
-        <div class="container mx-auto p-4">
+        <aside class="float-left w-80">
+            @include('layouts.sidebar')
+        </aside>
+
+        <article>
             @yield('content')
-        </div>
+        </article>
 
         <footer>
             {{-- @include('layouts.footer') --}}
